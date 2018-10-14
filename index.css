@@ -1,15 +1,12 @@
 body {
   width: 90%;
   margin: 0 auto;
-  padding: 0px;
-  box-sizing: border-box;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.25em;
-  justify-items: center;
   box-sizing: border-box;
   margin-bottom: 40px;
 }
